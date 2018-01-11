@@ -1,5 +1,5 @@
-$color-menu : #4b73d8;
-$color-texto-menu : #e1e3ea;
+$color-menu : #2254a5;
+$color-texto-menu : #8cadbb;
 $color-texto2-menu : white;
 $color-texto-general: #1e194a;
 $color-Fondo: #e1e3ea;
@@ -23,18 +23,18 @@ body{
 .menu{
     background-color : $color-menu;
     color: $color-texto2-menu;
-    height: 50px;
+    height: 40px;
     
     .navbar-nav a{
         color: $color-texto-menu;
+        font-size: 12px;
+        margin-left: 15px;
     }
 }
 .bajo-menu{
     color: $color-texto-general;
 }
 .reporte{
-    height: $medida-reporteH;
-    width: $medida-reporteW;
     color: black; 
     border-radius: 5px;
     background: #c7c9cd;
@@ -44,23 +44,15 @@ body{
     color: black;  
 }
 .plandeaccion{
-    color: $color-texto-menu;
-    background: #dc8033;
+    color: white;
+    background: #f2662e;
 }
 
 
 .SeccionBody{
-    position: relative;
-    display: block;
-    height: $medida-seccion-bodyh;
-    width: $medida-seccion-bodyW;
     
     .Iz{
-        display: block;
-        
-        height: 600px;
-        width: $medida-Izw;
-        
+            
         .perfilBody{
             height: 150px;
             padding: 20px;
@@ -75,16 +67,17 @@ body{
            color: black;
            display: block;
             margin-top: -15px;
+            font-size: 15px;
         }
          .aA{
-             display: block;
+                
                 margin-top: 5px;
                 background: #c7c9cd; 
                 color: $color-menu;
             }
         
         .escalas{
-            height: 300px;
+            
             p{
                 font-size: 10px;
                 margin-bottom: 10px;
@@ -103,21 +96,30 @@ body{
        
          
         .up{
+            .C{
+              margin-left: -8px;
+              margin-right: 5px;
+            }
+            .C3{
+                transform: translateX(10px);
+            }
+            .C2{
+                transform: translateX(2px);
+            }
             .cards{
-                padding: 5px;
-                display: block;
+               
                 background: white;
-                border-radius: 5px;
-                
+                border-radius: 3px;
+                height: 250px;
                 p{
                     font-size: 11px;
                 }
             }
         }
         .down{
-          display: block;
-          height: 300px;
+          
           background: white;
+            border-radius: 3px;
         } 
 }
 
