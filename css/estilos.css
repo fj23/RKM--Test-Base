@@ -1,6 +1,3 @@
-body {
-  background: #4b73d8; }
-
 .casa {
   height: 70px; }
 
@@ -54,25 +51,22 @@ body {
       margin-top: 5px;
       background: #c7c9cd;
       color: #4b73d8; }
-    .SeccionBody .Iz .escalas p {
-      font-size: 10px; }
-    .SeccionBody .Iz .escalas .subtexto {
-      font-size: 7px;
-      color: #97989b; }
-  .SeccionBody .De {
+    .SeccionBody .Iz .escalas {
+      height: 300px; }
+      .SeccionBody .Iz .escalas p {
+        font-size: 10px;
+        margin-bottom: 10px; }
+      .SeccionBody .Iz .escalas .subtexto {
+        font-size: 7px;
+        color: #97989b; }
+  .SeccionBody .up .cards {
+    padding: 5px;
     display: block;
-    height: auto;
-    width: 1400px; }
-    .SeccionBody .De .up .cards {
-      padding: 5px;
-      display: block;
-      width: 380px;
-      height: 250px;
-      background: #e1e3ea; }
-      .SeccionBody .De .up .cards p {
-        font-size: 11px; }
-    .SeccionBody .De .down {
-      display: block;
-      width: auto;
-      height: 300px;
-      background: #e1e3ea; }
+    background: white;
+    border-radius: 5px; }
+    .SeccionBody .up .cards p {
+      font-size: 11px; }
+  .SeccionBody .down {
+    display: block;
+    height: 300px;
+    background: white; }

@@ -15,7 +15,7 @@ $medida-Izw:400px;
 $medida-Dew: 1400px;
 
 body{
-    background: $color-menu;
+  
 }
 .casa{
     height: 70px;
@@ -84,8 +84,10 @@ body{
             }
         
         .escalas{
+            height: 300px;
             p{
                 font-size: 10px;
+                margin-bottom: 10px;
                 
             }
              .subtexto{
@@ -98,19 +100,14 @@ body{
         
     }
     
-    
-    .De{
-        display: block;
-        height: auto;
-        width: $medida-Dew;
+       
          
         .up{
             .cards{
                 padding: 5px;
                 display: block;
-                width: 380px;
-                height: 250px;
-                background: #e1e3ea;
+                background: white;
+                border-radius: 5px;
                 
                 p{
                     font-size: 11px;
@@ -119,12 +116,9 @@ body{
         }
         .down{
           display: block;
-          width: auto;
           height: 300px;
-          background: $color-Fondo;
-        }
-    }
-   
+          background: white;
+        } 
 }
 
 
